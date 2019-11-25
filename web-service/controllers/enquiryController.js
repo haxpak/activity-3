@@ -9,7 +9,11 @@ exports.create = function(req, res) {
   new_task.save(function(err, enquiry) {
     if (err)
       res.send(err);
-    res.json(enquiry);
+    res.writeHead(302, {
+        'Location': '/'
+      });
+    res.end();
+    // res.json(enquiry);
   });
 };
 
