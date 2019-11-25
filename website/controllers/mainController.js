@@ -7,7 +7,7 @@ exports.index = function (req, res){
 
 };
 
-exports.tahnks = function (req, res){
+exports.thankyou = function (req, res){
     res.render('thankyou');
 
 };
