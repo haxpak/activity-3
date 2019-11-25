@@ -7,6 +7,8 @@ module.exports = function(app) {
   app.route('/').get(controller.index);
   app.route('/index').get(controller.index);
 
+  app.route('/index').get(controller.thanks);
+
   // route for get enquiry page
   app.route('/enquire').get(controller.enquiry);
 

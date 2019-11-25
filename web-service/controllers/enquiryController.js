@@ -10,7 +10,7 @@ exports.create = function(req, res) {
     if (err)
       res.send(err);
     res.writeHead(302, {
-        'Location': '/'
+        'Location': '/thankyou'
       });
     res.end();
     // res.json(enquiry);

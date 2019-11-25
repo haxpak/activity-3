@@ -7,6 +7,11 @@ exports.index = function (req, res){
 
 };
 
+exports.tahnks = function (req, res){
+    res.render('thankyou');
+
+};
+
 exports.enquiry = function(req, res){
     res.render('enquiry');
 }
