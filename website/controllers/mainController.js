@@ -16,6 +16,6 @@ exports.enquiry = function(req, res){
     res.render('enquiry');
 }
 
-exports.enquiry = function(req, res){
+exports.products = function(req, res){
     res.render('products');
 }
