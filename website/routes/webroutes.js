@@ -12,8 +12,8 @@ module.exports = function(app) {
   // route for get enquiry page
   app.route('/enquire').get(controller.enquiry);
 
-  // route for get newsletter pae
-
+  // route for products page
+  app.route('/products').get(controller.products);
   
 
 

@@ -15,3 +15,7 @@ exports.thankyou = function (req, res){
 exports.enquiry = function(req, res){
     res.render('enquiry');
 }
+
+exports.enquiry = function(req, res){
+    res.render('products');
+}
